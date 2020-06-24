@@ -15,3 +15,12 @@
 <app-expander heading="Expand to see the current time">
   <app-clock></app-clock>
 </app-expander>
+
+<button (click)="hasExpander = !hasExpander">Toggle expander</button>
+
+<app-expander
+  *ngIf="hasExpander"
+  heading="Expand to see the current time"
+>
+  <app-clock></app-clock>
+</app-expander>
