@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeadingComponent } from './heading/heading.component';
 import { ProjectionComponent } from './projection/projection.component';
 import { ExpanderComponent } from './expander/expander.component';
+import { ClockComponent } from './clock/clock.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadingComponent,
     ProjectionComponent,
-    ExpanderComponent
+    ExpanderComponent,
+    ClockComponent
   ],
   imports: [
     BrowserModule
